@@ -21,7 +21,7 @@ export default function LoginPage() {
         queryFn: () => loginUser(email, password)
     })
 
-    // on login output change
+    // on login api response
     useEffect(() => {
 
         if (data === undefined || data === null) return

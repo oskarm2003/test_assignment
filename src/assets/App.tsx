@@ -1,6 +1,6 @@
 import LoginPage from "./loginPage/LoginPage";
 import { Route, Routes } from "react-router-dom";
-import TasksPage from "./TasksPage/TasksPage";
+import TasksPage from "./tasksPage/TasksPage";
 import { createContext } from "react";
 
 export const UserTokenContext = createContext<string>("")

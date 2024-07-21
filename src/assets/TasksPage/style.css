@@ -7,10 +7,6 @@
     border: 1px dashed lightslategrey;
 }
 
-/* .tasks-wrapper input {
-    border-color: gray;
-} */
-
 .tasks-autocomplete {
     z-index: 1;
     overflow-x: hidden;
