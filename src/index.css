@@ -1,0 +1,21 @@
+html {
+  font-size: 15px;
+}
+
+@keyframes wave {
+  0% {
+    background-position: 0% 0%;
+  }
+
+  100% {
+    background-position: 100% 0%;
+  }
+}
+
+body {
+  background-image: linear-gradient(155deg, #faf, #f95);
+  /* background-image: linear-gradient(155deg, #fc8, #fff); */
+  background-size: 200% 100%;
+  background-attachment: fixed;
+  animation: infinite alternate-reverse 25s wave;
+}

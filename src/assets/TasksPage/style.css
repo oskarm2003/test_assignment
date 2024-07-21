@@ -1,0 +1,90 @@
+.tasks-wrapper {
+    width: 35rem;
+}
+
+.tasks-wrapper hr {
+    width: 110%;
+    border: 1px dashed lightslategrey;
+}
+
+/* .tasks-wrapper input {
+    border-color: gray;
+} */
+
+.tasks-autocomplete {
+    z-index: 1;
+    overflow-x: hidden;
+    overflow-y: scroll;
+
+    max-height: 50rem;
+
+    display: flex;
+    flex-direction: column;
+
+    margin: 0.5rem 0 0 0;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    background-color: #fafafa;
+}
+
+.tasks-autocomplete>div>p {
+    margin: 1rem 1rem 0 1rem;
+    color: darkgray;
+    font-weight: 700;
+    font-size: smaller;
+}
+
+.pagination {
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+/* task */
+.task {
+
+    box-sizing: border-box;
+    padding: 0.5rem 2rem;
+    margin: 0.25rem 0;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.task:hover {
+    background-color: #00000008;
+}
+
+.bookmarked .task:hover {
+    background-color: #5985E10f;
+}
+
+.create-task .task:hover {
+    cursor: pointer;
+    user-select: none;
+    background-color: #48752C0f;
+}
+
+.task p {
+    font-weight: 600;
+    max-width: 80%;
+    margin: 0;
+}
+
+.bookmark {
+    cursor: pointer;
+}
+
+/* task creator */
+.task-creator-wrapper {
+
+    display: flex;
+    gap: 0.5rem;
+
+    padding: 1rem;
+
+    border: 1px dashed gray;
+    border-radius: 5px;
+
+}
